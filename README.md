@@ -8,6 +8,6 @@ SSL certificaties using NGINX and Let's Encrypt.
 This repo is based all on the work of [@mikkelkrogsholm](https://github.com/mikkelkrogsholm/).
 His [original project can be found here](https://github.com/mikkelkrogsholm/encrypted_dashboard).
 
-## Documenatation
-Please see the full documenatation at [documenatation.md](documenatation.md)
-for the full scope of how to run this setup.
+## Documentation
+Please see the full documentation at [documentation.md](documentation.md)
+for the full scope of how to run this setup on your own computer running Docker.
