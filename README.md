@@ -1,10 +1,5 @@
 # Docker + Nginx + Let's Encrypt + Rstudio + Shiny
 
-----
-## NEED TO HAVE FIXED
-
-Up to date
-
 ## NICE TO HAVE FIXED
 
 **Multiple users in Rstudio Server**
@@ -199,7 +194,13 @@ The important part here are the environment variables and the volumes. The envir
 
 The volumes are used to ensure that Rstudio and Shiny share apps and packages in order for you to build apps in Rstudio and have them deployed on the Shiny server without too big a hassle.
 
+### The Dockerfile
+
+This is the docker image I'm using in conjunction with the
+[Encrypted Dashboard](/) project.
+
+Currently, [the new docker image for Rstudio](https://github.com/rocker-org/rocker-versioned)
+Exposes both ports `8787` and `3838` which doesn't work with the Encrypted Dashboard setup.
 
 ## Conclusion
 This can be a fairly simple way to have easy, reproducible deploys for a secure R-based dashboard solution with auto-renewing TLS certificates. 
-
