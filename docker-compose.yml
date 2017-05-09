@@ -44,7 +44,7 @@ services:
       
   tidyverse:
     restart: always
-    image: rocker/tidyverse
+    image: chipoglesby/rstudioDocker
     container_name: rstudio
     expose:
       - "8787"
