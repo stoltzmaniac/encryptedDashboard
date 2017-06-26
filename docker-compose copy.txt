@@ -50,7 +50,7 @@ volumes:
 # Spin up a Shiny docker
 shiny:
     restart: always
-    image: mikkelkrogsholm/shiny
+    image: rocker/shiny
     container_name: shiny
     expose:
       - "3838"
